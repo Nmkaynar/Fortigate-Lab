@@ -19,7 +19,7 @@ Ankara FW'dan İstanbul FW'na<br><br>
 ### PHASE 1 
 Bu adım tünel kurulum aşaması. <br>
 1. adımda karşı tarafın wan ip adresini yazmalıyız ve ona hangi porttan erişecek isek o portu seçmeliyiz
-2. Tünel kurulurken ki kimlik doğrulama için girdiğimiz parola. Her iki tarafta da aynı parola(pre share key ) kullanılmalı. Ve güçlü bir şifre verilmeli.
+2. Tünel kurulurken ki kimlik doğrulama için girdiğimiz parola. Her iki tarafta da aynı parola(pre shared key ) kullanılmalı. Ve güçlü bir şifre verilmeli.
 3. Burada ipsec tünelinin phase 1 için tünelden geçen trafğin hangi metod ile şifrelenmesini ve şifrelenmiş verinin bütünlüğünü hangi metod ile kontrol etmesini belirtiyoruz.
 4. Burada demo ürün olduğundan şifreleme için DES seçildi. Ancak best practice de AES128 veya AES256 seçilmeli. Veri bütünlüğü için de SHA256 seçildi. Ve her iki tarafta da aynı algoritmalar seçilmeli.
 
