@@ -6,7 +6,7 @@ Bu lab çalışmasında iki farklı şubeyi site to site VPN ile yapılandırır
 
 Hem istanbul hem de ankarada lan tarafta 192.168.1.0/24 subneti kullanılıyor ve tünel içerisinden bunları istanbul için 10.10.10.0/24 subnetine, ankara için de 11.11.11.0/24 subnetine natlayacağız.
 
-İpsec tünel için [site to site VPN](https://github.com/Nmkaynar/Fortigate-Lab/blob/main/Site%20to%20site%20VPN%20IPSEC.md) bölümünde yapmıştık.  Bu lab çalışmasında farklı olarak local ve remote subnetleri LAN tarafı değil Natlanacak subneti yazıyoruz.
+İpsec tünel için [site to site VPN](https://github.com/Nmkaynar/Fortigate-Lab/blob/main/Site%20to%20site%20VPN%20IPSEC.md) bölümünde yapmıştık. Bu senaryoda Phase2 selector içerisinde gerçek LAN subnetleri yerine NAT sonrası kullanılacak translated subnetler tanımlanır.
 
 <img width="660" height="301" alt="image" src="https://github.com/user-attachments/assets/a12780fe-c567-4cf2-b889-81d746d7b798" /><br>
 
