@@ -64,6 +64,16 @@ Ankara tarafıda aynı şekilde 10.10.10.x adresine erişmesi gerekecek.
 
 <img width="565" height="424" alt="image" src="https://github.com/user-attachments/assets/792e7545-90b4-4d8c-8cf2-88a87f4ceb88" />
 
+### Packet Flow
+````
+192.168.1.10
+↓ SNAT
+10.10.10.10
+↓ IPsec Tunnel
+11.11.11.30
+↓ DNAT
+192.168.1.30
+````
 
 ## Kaynak 
 Daha fazlası için 
