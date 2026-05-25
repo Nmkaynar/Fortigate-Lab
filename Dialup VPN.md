@@ -52,9 +52,18 @@ FW tarafında hangi ayarlar yapıldı ise forticlient uygulamasında da aynı ay
 1. Vpn ismini yazıyoruz. Keyfi bir isim verilebilir
 2. Remote gateway olarak, FW Wan ip'si yazılmalı.
 3. ike version mode durumunu FW da ne seçildiyse aynısı olacak
-4. 
-
+4. Phase 1'in encryption metodları
+5. Phase 1 için DH grubu
+6. Phase 2'nin encryption metodları
+7. Phase 2 için DH grubu
+   
 <img width="602" height="472" alt="image" src="https://github.com/user-attachments/assets/365abf5c-42da-49fd-a9e8-2541ded037c0" />
 
 
 <img width="616" height="576" alt="image" src="https://github.com/user-attachments/assets/e47b28c7-47a5-4bc0-bc40-c8725c4724c3" />
+
+
+## Connection
+Test user ile bağlantı sağlandıktan sonra FW 10.10.10.10 ip adresini verdi. Ve FW arkasında bulunan 172.16.10.10 ip adresine de erişim geldi.
+<img width="1375" height="425" alt="image" src="https://github.com/user-attachments/assets/4299513a-696f-45c9-9c1e-b121a948ab94" />
+
