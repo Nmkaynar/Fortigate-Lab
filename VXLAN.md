@@ -1,5 +1,5 @@
 ## VXLAN
-Bu labda vxlan ile farklı lokasyondaki cihazların aynı vlan içerisinde iletişme geçmelerini sağlayacağız.<br>
+Bu labda VXLAN kullanarak farklı lokasyonlardaki cihazların aynı Layer 2 segmentinde haberleşmesini sağlayacağız.<br>
 <img width="936" height="528" alt="image" src="https://github.com/user-attachments/assets/563eba0b-be96-44d1-a6a7-a157880b1d22" /><br>
 ### Vlan100 için FW da port9 altında interface oluşturalım.
 <img width="707" height="189" alt="image" src="https://github.com/user-attachments/assets/70e77b08-ee53-463c-9c55-8270d1a5ae68" /><br>
