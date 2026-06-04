@@ -57,7 +57,7 @@ Branch tarafında interface isterseniz ip verebilirsiniz, ip vererek HQ üzerind
 PC3 de dhcp üzerinden ip aldı.<br>
 <img width="468" height="98" alt="image" src="https://github.com/user-attachments/assets/f36ae66d-3b00-4222-9152-d81e85672dca" /><br>
 
-VXLAN sayesinde layer2 trafi layer 3 üzerinden taşınabilir hale geldi. <br>
+PC3, farklı lokasyonda bulunmasına rağmen aynı Layer 2 segmentinin parçası olduğu için DHCP isteği VXLAN tüneli üzerinden HQ'ya ulaştı ve IP adresini HQ'daki DHCP sunucusundan aldı. <br>
 
 ### Ping testi.
 PC1'den PC3'e ping testi başarılı.<br>
