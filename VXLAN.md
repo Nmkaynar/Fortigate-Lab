@@ -63,7 +63,7 @@ PC3, farklı lokasyonda bulunmasına rağmen aynı Layer 2 segmentinin parçası
 PC1'den PC3'e ping testi başarılı.<br>
 <img width="691" height="212" alt="image" src="https://github.com/user-attachments/assets/007cea8b-4f65-441f-978a-12020d147883" /><br>
 
-ICMP paketi içerği <br>
+Wireshark üzerinde ICMP paketi içerği <br>
 <img width="833" height="307" alt="image" src="https://github.com/user-attachments/assets/af64cafe-6e61-4a69-b00b-b788e30beea4" /><br>
 
 
