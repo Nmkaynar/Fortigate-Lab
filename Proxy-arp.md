@@ -58,7 +58,7 @@ interface range gigabitEthernet 0/1-2
 exit
 ````
 
-``switchport protected`` bu komut protected portların birbirleri ile layer2 haberleşmesini engelemmeye yarar. Eğer cisco sw de portlarda bu komut çalıştırılmaz ise PC1 ve PC2, FW da config yapılmasına rağmen SW üzerinden haberleşmeye devam edecektir.
+``switchport protected`` bu komut protected portların birbirleri ile layer2 haberleşmesini engelemeye yarar. Eğer cisco sw de portlarda bu komut çalıştırılmaz ise PC1 ve PC2, FW da config yapılmasına rağmen SW üzerinden haberleşmeye devam edecektir.
 
 
 
