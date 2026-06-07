@@ -1,5 +1,5 @@
 ## Proxy-arp
-<img width="527" height="514" alt="image" src="https://github.com/user-attachments/assets/a16ff858-5273-4dc5-9a8c-8e52002c8dbc" />><br>
+<img width="527" height="514" alt="image" src="https://github.com/user-attachments/assets/a16ff858-5273-4dc5-9a8c-8e52002c8dbc" /><br>
 
 Normal şartlarda PC1 ve PC2 aynı vlanda ise FW'a uğramadan SW sayesinde kendi aralarında iletişim kurabilirler.  Ancak burada oluşan sorun layer2 güvenliği eğer cihazlardan birine bir virüs bulaşmış ise bu diğer cihazlarada geçebileceği anlamaına gelir. Çünkü ortada bir güvenlik söz konusu yoktur.
 
