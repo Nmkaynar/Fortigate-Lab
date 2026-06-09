@@ -6,7 +6,7 @@ Bu lab çalışmasında aktif-pasif şekilde iki fortigate cihazını HA yaparak
 
 ## Primary Yapılandırması
 
-1. HA seçimini yapıyoruz.
+1. HA seçimini yapıyoruz. Bu labda aktif-pasif seçtim
 2. Priorty'i belirliyoruz. Priorty yüksek olan primary olur.
 3. Group name belirliyoruz. Aynı HA yapısında olan cihazlar aynı grup ismi olmalı.
 4. Session pickup enable yapıyoruz. Bu ayar açık ise, ve priamry bir nedenden ötürü down olursa, trafik secondary den devam ederken, kullanıcıların aktif sesionları düşmez. Kapalı olursa sessionlar düşer.
